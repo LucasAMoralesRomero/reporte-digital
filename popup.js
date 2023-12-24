@@ -1,5 +1,3 @@
-//http://sucursal184/cotoacasa/tvsets/monitores/reseCabeceraCD.asp?fReservaDesde=19%2F12%2F2000&fReservaHasta=19%2F12%2F2023&fCompraDesde=&fCompraHasta=&idEstadoReserva=&idReserva=304951&idPedido=&idPlu=&idCampoOrden=0&orden=
-
 //version 1:abre reporte con ingresar el numero de reserva
 //se modifica para leer el pedido
 //se modifica la fecha para tomar hasta 2050
@@ -16,4 +14,3 @@ window.addEventListener('DOMContentLoaded', function(){
             chrome.tabs.create({url: newURL})
         })
     })
-    console.log("extension corriendo...");
