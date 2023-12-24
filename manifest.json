@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Reporte DIGITAL",
+  "description": "Reporte ordenes de digital",
+  "version": "0.0.1",
+  "browser_action": {
+  "default_icon": "report.png",
+  "default_popup": "popup.html"
+}
+ ,
+  "content_scripts":[
+    {
+      "matches":["<all_urls>"],
+      "js":["popup.js"]
+    }
+  ],
+  "background": {
+    "service_workers": ["background.js"]
+  },
+  "permissions": [
+    "tabs"
+  ]
+
+}
