@@ -3,10 +3,10 @@
 ![Icono](https://raw.githubusercontent.com/LucasAMoralesRomero/reporte-digital/main/report.png)
 
 ## Descripción
-Reporte DIGITAL es una extensión de Chrome que facilita la obtencion de órdenes dde digital a partir del numero de pedido o de reserva.
+**Reporte DIGITAL** es una extensión de Chrome que facilita la obtención de órdenes digitales a partir del número de pedido o de reserva.
 
 ## Versión
-Versión: 0.0.1
+**Versión:** 0.0.1
 
 ## Instalación
 1. Descarga los archivos de esta extensión o clona el repositorio.
@@ -23,12 +23,12 @@ Versión: 0.0.1
 Esta extensión requiere el permiso de "tabs" para poder abrir nuevas pestañas en Chrome.
 
 ## Advertencia
-| :warning: Alerta: Este proyecto está en desarrollo          |
+| :warning: **Alerta:** Este proyecto está en desarrollo          |
 |:---------------------------|
 | **Esta extensión está actualmente en construcción y puede contener errores. Si tienes alguna sugerencia o encuentras problemas, te invito a hacer un fork del proyecto y contribuir a su desarrollo.**
 
 ## Desarrollo
-Esta extensión utiliza JavaScript para abrir una nueva pestaña con el informe de la orden de digital cuando se presiona el botón, por el momento no tiene funcionalidad fuera de suc184.
+Esta extensión utiliza JavaScript para abrir una nueva pestaña con el informe de la orden digital cuando se presiona el botón. Por el momento, no tiene funcionalidad fuera de la sucursal 184.
 
 ```javascript
 // popup.js
