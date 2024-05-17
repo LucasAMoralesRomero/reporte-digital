@@ -39,7 +39,7 @@ window.addEventListener('DOMContentLoaded', function () {
   var link = document.getElementById('consultar');
   link.addEventListener('click', function () {
     event.preventDefault();
-    var newURL = "http://sucursal184/cotoacasa/tvsets/monitores/reseCabeceraCD.asp?fReservaDesde=19%2F12%2F2000&fReservaHasta=19%2F12%2F2050&fCompraDesde=&fCompraHasta=&idEstadoReserva=&idReserva=" + nroReserva.value + "&idPedido=" + nroPedido.value + "&idPlu=&idCampoOrden=0&orden=";
+    var newURL = "http://direccion-de-reporte" + nroReserva.value + "&idPedido=" + nroPedido.value + "&idPlu=&idCampoOrden=0&orden=";
     chrome.tabs.create({ url: newURL });
   })
 })
